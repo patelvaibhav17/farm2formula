@@ -41,7 +41,6 @@ gapwise/
 
 # ─── Hyperledger Fabric ───────────────────────────────────────────────────
 # We do NOT upload the large binaries or vendor samples
-fabric-samples/
 bin/
 organizations/
 
