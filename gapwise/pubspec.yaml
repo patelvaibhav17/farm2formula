@@ -1,0 +1,69 @@
+name: gapwise
+description: AI-powered resume gap analyzer
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  animations: ^2.0.11
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # AI (Gemini)
+  google_generative_ai: ^0.4.5
+
+  # File Handling
+  file_picker: ^8.1.1
+  path_provider: ^2.1.4
+  uuid: ^4.5.0
+
+  # Document Parsing
+  syncfusion_flutter_pdf: ^28.2.3
+  docx_to_text: ^1.0.1
+
+  # PDF & Printing
+  pdf: ^3.11.1
+  printing: ^5.13.2
+
+  # Utilities
+  intl: ^0.19.0
+  syncfusion_flutter_gauges: 28.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+  # Code generation (Riverpod)
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

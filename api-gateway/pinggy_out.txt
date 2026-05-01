@@ -1,0 +1,2 @@
+Warning: Permanently added '[a.pinggy.io]:443' (RSA) to the list of known hosts.
+Connection closed by 2600:3c15::f03c:95ff:fe76:2e04 port 443

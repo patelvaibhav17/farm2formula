@@ -1,0 +1,26 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.3",
+    "@hyperledger/fabric-gateway": "^1.10.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.4",
+    "multer": "^2.1.1",
+    "pinata-web3": "^0.5.4",
+    "uuid": "^13.0.0"
+  }
+}

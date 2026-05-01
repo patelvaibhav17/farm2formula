@@ -1,0 +1,61 @@
+# ─── Farm2Formula Master Gitignore ───────────────────────────────────────────
+
+# ─── Standard ───────────────────────────────────────────────────────────────
+.DS_Store
+*.log
+*.hprof
+*.tmp
+*.bak
+.vscode/
+/build/
+
+# Android crash/heap dumps
+replay_pid*.log
+hs_err_pid*.log
+*.hprof
+
+# ─── Sensitive (CRITICAL) ────────────────────────────────────────────────────
+.env
+api-gateway/.env
+farm2formula/.env
+
+# ─── Node.js (API Gateway) ───────────────────────────────────────────────────
+api-gateway/node_modules/
+api-gateway/uploads/
+
+# ─── Flutter (Mobile App) ───────────────────────────────────────────────────
+farm2formula/build/
+farm2formula/.dart_tool/
+farm2formula/.flutter-plugins
+farm2formula/.flutter-plugins-dependencies
+farm2formula/.pub-cache/
+farm2formula/.pub/
+
+# Android generated
+farm2formula/android/app/debug
+farm2formula/android/app/profile
+farm2formula/android/app/release
+
+# ─── GapWise Flutter (Mobile App) ───────────────────────────────────────────
+gapwise/build/
+gapwise/.dart_tool/
+gapwise/.flutter-plugins
+gapwise/.flutter-plugins-dependencies
+gapwise/.pub-cache/
+gapwise/.pub/
+gapwise/android/app/debug
+gapwise/android/app/profile
+gapwise/android/app/release
+
+# ─── Hyperledger Fabric ───────────────────────────────────────────────────
+# We do NOT upload the large binaries or vendor samples
+fabric-samples/
+bin/
+organizations/
+
+# ─── Misc ───────────────────────────────────────────────────────────────────
+ip_out.txt
+lt_out.txt
+tunnel_url.txt
+hs_err_pid*
+replay_pid*
