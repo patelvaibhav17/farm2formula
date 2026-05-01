@@ -37,15 +37,7 @@ farm2formula/android/app/profile
 farm2formula/android/app/release
 
 # ─── GapWise Flutter (Mobile App) ───────────────────────────────────────────
-gapwise/build/
-gapwise/.dart_tool/
-gapwise/.flutter-plugins
-gapwise/.flutter-plugins-dependencies
-gapwise/.pub-cache/
-gapwise/.pub/
-gapwise/android/app/debug
-gapwise/android/app/profile
-gapwise/android/app/release
+gapwise/
 
 # ─── Hyperledger Fabric ───────────────────────────────────────────────────
 # We do NOT upload the large binaries or vendor samples
